@@ -25,7 +25,6 @@ During the project, I participated in:
 - Bug reporting in Jira
 - Functional testing
 - Negative testing
-- Boundary Value Analysis
 - Testing of list creation, modification, saving and opening
 - Testing of UI controls
 - Testing of Add to List and Clear List functionality
@@ -33,6 +32,7 @@ During the project, I participated in:
 - Testing of keyboard shortcuts and Help functionality
 - Contribution to the Test Plan
 - Contribution to the Test Summary Report
+- Working with the Requirements Traceability Matrix
 
 The original documentation may contain contributions from other team members because this was a collaborative training project.
 
