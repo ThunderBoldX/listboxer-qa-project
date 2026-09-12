@@ -1,0 +1,1000 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project description,Project url,Priority,Resolution,Assignee,Reporter,Creator,Created,Updated,Last Viewed,Resolved,Affects Version/s,Fix Version/s,Component/s,Due Date,Votes,Labels,Description,Environment,Watchers,Log Work,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Relates),Attachment,Attachment,Attachment,Attachment,Attachment,Custom field (Automation Test Key),Custom field (Branch),Custom field (Build Version),Custom field (Component/s),Custom field (Defects),Custom field (Epic Link),Custom field (Epic/Theme),Custom field (Fix Version/s),Custom field (Flagged),Custom field (HH Options),Custom field (Location),Custom field (Original story points),Custom field (Parent Link),Custom field (Preconditions),Custom field (QA person),Custom field (Rank),Custom field (Requirement),Sprint,Custom field (Steps),Custom field (Steps Progress),Custom field (Story Points),Custom field (TC Group),Custom field (TC Group Name),Custom field (TC Status),Custom field (TC Template),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Test Plan Iteration),Custom field (Version 1.0),Custom field (Version app),Custom field (Work Price),Comment
+"Перевірити поведінку програми при натисканні F1, якщо фокус  не встановлений на конкретному елементі через табуляцію",TESPG177-681,190361,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Minor,Done,,b.kotkov_g177,b.kotkov_g177,11/Apr/26 1:16 AM,11/Apr/26 1:27 AM,12/Sep/26 10:10 PM,11/Apr/26 1:27 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Фокус не встановлений на конкретному елементі управління
+
+*Steps to Reproduce:*
+# Відкрити додаток List Boxer 1.98
+# Переконатися, що жоден елемент не знаходиться у фокусі (через Tab)
+# Натиснути клавішу F1
+# Перевірити реакцію програми
+
+*Expected Result:*
+Не вказано ",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"11/Apr/26 1:15 AM;b.kotkov_g177;2026-04-11 00-15-15.mp4;https://bt.qacloud.cc/secure/attachment/117965/2026-04-11+00-15-15.mp4",,,,,,,,,,,,,,,,,,,,"1|i0gerh:",,,,,,,,,,,,,,,,,
+Перевірити поведінку програми при натисканні Ctrl+Z без попередніх дій,TESPG177-680,190360,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Minor,Done,,b.kotkov_g177,b.kotkov_g177,11/Apr/26 1:13 AM,11/Apr/26 1:27 AM,12/Aug/26 9:09 PM,11/Apr/26 1:27 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Жодних дій зі списком не виконано
+
+*Steps to Reproduce:*
+# Натиснути комбінацію клавіш Ctrl+Z
+
+*Expected Result:*
+Не вказано",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"11/Apr/26 1:13 AM;b.kotkov_g177;2026-04-11 00-12-24.mp4;https://bt.qacloud.cc/secure/attachment/117964/2026-04-11+00-12-24.mp4",,,,,,,,,,,,,,,,,,,,"1|i0ger9:",,,,,,,,,,,,,,,,,
+Перевірити роботу Ctrl+Z після очищення списку,TESPG177-678,190358,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,11/Apr/26 1:06 AM,11/Apr/26 1:27 AM,12/Sep/26 10:11 PM,11/Apr/26 1:27 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Додати кілька елементів до списку
+# Натиснути кнопку “Clear List”
+# Натиснути комбінацію клавіш Ctrl+Z
+# Перевірити список
+
+*Expected Result:*
+Комбінація клавіш Ctrl+Z скасовує очищення списку. Список відновлюється до попереднього стану з усіма елементами. ",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"11/Apr/26 1:06 AM;b.kotkov_g177;2026-04-11 00-05-07.mp4;https://bt.qacloud.cc/secure/attachment/117962/2026-04-11+00-05-07.mp4",,,,,,,,,,,,,,,,,,,,"1|i0geqt:",,,,,,,,,,,,,,,,,
+Перевірити роботу Ctrl+Z після додавання елемента в список,TESPG177-677,190357,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,11/Apr/26 1:02 AM,14/Apr/26 11:14 PM,12/Sep/26 10:11 PM,14/Apr/26 11:14 PM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Обрано режим роботи
+
+*Steps to Reproduce:*
+# Ввести значення у поле вводу
+# Натиснути “Add to List” або Enter
+# Натиснути комбінацію клавіш Ctrl+Z
+# Перевірити список
+
+*Expected Result:*
+Комбінація клавіш Ctrl+Z скасовує додавання елемента. Елемент видаляється зі списку.",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"11/Apr/26 1:01 AM;b.kotkov_g177;2026-04-11 00-01-22.mp4;https://bt.qacloud.cc/secure/attachment/117961/2026-04-11+00-01-22.mp4",,,,,,,,,,,,,,,,,,,,"1|i0geql:",,,,,,,,,,,,,,,,,
+Перевірити роботу Ctrl+S після внесення змін до списку,TESPG177-676,190356,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Trivial,Done,,b.kotkov_g177,b.kotkov_g177,11/Apr/26 12:57 AM,14/Apr/26 11:14 PM,12/Sep/26 10:11 PM,14/Apr/26 11:14 PM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Існує відкритий список
+
+*Steps to Reproduce:*
+# Відкрити існуючий список
+# Додати новий елемент до списку
+# Натиснути комбінацію клавіш Ctrl+S
+# Перевірити результат збереження
+
+*Expected Result:*
+Комбінація клавіш Ctrl+S зберігає внесені зміни до списку.",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"11/Apr/26 12:57 AM;b.kotkov_g177;2026-04-10 23-56-53.mp4;https://bt.qacloud.cc/secure/attachment/117960/2026-04-10+23-56-53.mp4",,,,,,,,,,,,,,,,,,,,"1|i0geqd:",,,,,,,,,,,,,,,,,
+Перевірити роботу Ctrl+O при наявності вже відкритого списку,TESPG177-675,190355,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Trivial,Done,,b.kotkov_g177,b.kotkov_g177,11/Apr/26 12:54 AM,14/Apr/26 11:14 PM,12/Aug/26 9:08 PM,14/Apr/26 11:14 PM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Відкритий список у додатку
+# Існує інший збережений файл списку на диску
+
+*Steps to Reproduce:*
+# Відкрити будь-який список
+# Натиснути комбінацію клавіш Ctrl+O
+# Обрати інший файл списку
+# Підтвердити відкриття
+
+*Expected Result:*
+Не вказано ",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"11/Apr/26 12:54 AM;b.kotkov_g177;2026-04-10 23-54-19.mp4;https://bt.qacloud.cc/secure/attachment/117959/2026-04-10+23-54-19.mp4",,,,,,,,,,,,,,,,,,,,"1|i0geq5:",,,,,,,,,,,,,,,,,
+"Перевірити, що використання гарячих клавіш не призводить до аварійного завершення програми",TESPG177-674,190354,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,11/Apr/26 12:46 AM,11/Apr/26 1:27 AM,12/Sep/26 10:11 PM,11/Apr/26 1:27 AM,,,,,0,,"*Preconditions:*
+ # Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+ # Послідовно використовувати гарячі клавіші: Ctrl+O, Ctrl+S, Ctrl+Q, Ctrl+C, Ctrl+X, Ctrl+V, Ctrl+Z, Alt+F4, F1
+ # Спостерігати за поведінкою програми
+
+*Expected Result:*
+Використання гарячих клавіш не призводить до помилок або аварійного завершення програми.",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"11/Apr/26 12:46 AM;b.kotkov_g177;2026-04-10 23-45-00.mp4;https://bt.qacloud.cc/secure/attachment/117958/2026-04-10+23-45-00.mp4",,,,,,,,,,,,,,,,,,,,"1|i0gepx:",,,,,,,,,,,,,,,,,
+Перевірити роботу клавіші F1 для виклику контекстного меню,TESPG177-673,190353,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Trivial,Done,,b.kotkov_g177,b.kotkov_g177,11/Apr/26 12:43 AM,11/Apr/26 1:27 AM,12/Sep/26 10:11 PM,11/Apr/26 1:27 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Натиснути клавішу F1
+# Перевірити реакцію програми
+
+*Expected Result:*
+Клавіша F1 викликає контекстну довідку.",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"11/Apr/26 12:43 AM;b.kotkov_g177;2026-04-10 23-43-20.mp4;https://bt.qacloud.cc/secure/attachment/117957/2026-04-10+23-43-20.mp4",,,,,,,,,,,,,,,,,,,,"1|i0gepp:",,,,,,,,,,,,,,,,,
+Перевірити роботу гарячої клавіші Alt+F4 для закриття програми,TESPG177-672,190352,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Trivial,Done,,b.kotkov_g177,b.kotkov_g177,11/Apr/26 12:40 AM,11/Apr/26 1:27 AM,12/Sep/26 10:11 PM,11/Apr/26 1:27 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Натиснути комбінацію клавіш Alt+F4
+
+*Expected Result:*
+Комбінація клавіш Alt+F4 закриває програму.
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"11/Apr/26 12:40 AM;b.kotkov_g177;2026-04-10 23-39-57.mp4;https://bt.qacloud.cc/secure/attachment/117956/2026-04-10+23-39-57.mp4",,,,,,,,,,,,,,,,,,,,"1|i0geph:",,,,,,,,,,,,,,,,,
+Перевірити роботу гарячої клавіші Ctrl+Z для скасування останньої дії,TESPG177-671,190351,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Trivial,Done,,b.kotkov_g177,b.kotkov_g177,11/Apr/26 12:38 AM,11/Apr/26 1:26 AM,12/Sep/26 10:11 PM,11/Apr/26 1:26 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Виконати дію (наприклад, додати елемент до списку)
+# Натиснути комбінацію клавіш Ctrl+Z
+# Перевірити список
+
+*Expected Result:*
+Комбінація клавіш Ctrl+Z скасовує останню дію.
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"11/Apr/26 12:38 AM;b.kotkov_g177;2026-04-10 23-38-35.mp4;https://bt.qacloud.cc/secure/attachment/117955/2026-04-10+23-38-35.mp4",,,,,,,,,,,,,,,,,,,,"1|i0gep9:",,,,,,,,,,,,,,,,,
+Перевірити роботу гарячої клавіші Ctrl+V для вставки,TESPG177-670,190350,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Trivial,Done,,b.kotkov_g177,b.kotkov_g177,11/Apr/26 12:37 AM,14/Apr/26 11:14 PM,12/Sep/26 10:11 PM,14/Apr/26 11:14 PM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Існує список
+# У буфері обміну є скопійоване значення
+
+*Steps to Reproduce:*
+# Натиснути комбінацію клавіш Ctrl+V
+# Перевірити список
+
+*Expected Result:*
+Комбінація клавіш Ctrl+V вставляє значення з буфера обміну у список. ",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"11/Apr/26 12:37 AM;b.kotkov_g177;2026-04-10 23-36-51.mp4;https://bt.qacloud.cc/secure/attachment/117954/2026-04-10+23-36-51.mp4",,,,,,,,,,,,,,,,,,,,"1|i0gep1:",,,,,,,,,,,,,,,,,
+Перевірити роботу гарячої клавіші Ctrl+X для вирізання,TESPG177-669,190349,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Trivial,Done,,b.kotkov_g177,b.kotkov_g177,11/Apr/26 12:35 AM,14/Apr/26 11:14 PM,12/Sep/26 10:11 PM,14/Apr/26 11:14 PM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Існує список із хоча б одним елементом
+# Елемент списку виділений
+
+*Steps to Reproduce:*
+# Виділити елемент у списку
+# Натиснути комбінацію клавіш Ctrl+X
+
+*Expected Result:*
+Комбінація клавіш Ctrl+X вирізає вибраний елемент зі списку",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"11/Apr/26 12:35 AM;b.kotkov_g177;2026-04-10 23-34-41.mp4;https://bt.qacloud.cc/secure/attachment/117953/2026-04-10+23-34-41.mp4",,,,,,,,,,,,,,,,,,,,"1|i0geot:",,,,,,,,,,,,,,,,,
+Перевірити роботу гарячої клавіші Ctrl+C для копіювання,TESPG177-668,190348,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Trivial,Done,,b.kotkov_g177,b.kotkov_g177,11/Apr/26 12:32 AM,14/Apr/26 11:14 PM,12/Sep/26 10:11 PM,14/Apr/26 11:14 PM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Існує список із хоча б одним елементом
+# Елемент списку виділений
+
+*Steps to Reproduce:*
+# Виділити елемент у списку
+# Натиснути комбінацію клавіш Ctrl+C
+
+*Expected Result:*
+Комбінація клавіш Ctrl+C копіює вибраний елемент.
+ 
+ ",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"11/Apr/26 12:32 AM;b.kotkov_g177;2026-04-10 23-31-23.mp4;https://bt.qacloud.cc/secure/attachment/117952/2026-04-10+23-31-23.mp4",,,,,,,,,,,,,,,,,,,,"1|i0geol:",,,,,,,,,,,,,,,,,
+Перевірити роботу гарячої клавіші Ctrl+Q для виходу з програми,TESPG177-667,190347,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Trivial,Done,,b.kotkov_g177,b.kotkov_g177,11/Apr/26 12:27 AM,11/Apr/26 1:26 AM,09/Sep/26 1:03 PM,11/Apr/26 1:26 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Натиснути комбінацію клавіш Ctrl+Q
+
+*Expected Result:*
+Комбінація клавіш Ctrl+Q закриває програму.
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"11/Apr/26 12:27 AM;b.kotkov_g177;2026-04-10 23-27-31.mp4;https://bt.qacloud.cc/secure/attachment/117951/2026-04-10+23-27-31.mp4",,,,,,,,,,,,,,,,,,,,"1|i0geod:",,,,,,,,,,,,,,,,,
+Перевірити роботу гарячої клавіші Ctrl+S для збереження списку,TESPG177-666,190346,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Trivial,Done,,b.kotkov_g177,b.kotkov_g177,11/Apr/26 12:25 AM,11/Apr/26 1:26 AM,12/Sep/26 10:11 PM,11/Apr/26 1:26 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Існує створений список
+
+*Steps to Reproduce:*
+# Відкрити додаток List Boxer 1.98
+# Натиснути комбінацію клавіш Ctrl+S
+# Обрати місце збереження
+# Підтвердити збереження
+
+*Expected Result:*
+Комбінація клавіш Ctrl+S зберігає список у файл на диску.
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"11/Apr/26 12:24 AM;b.kotkov_g177;2026-04-10 23-20-48.mp4;https://bt.qacloud.cc/secure/attachment/117950/2026-04-10+23-20-48.mp4",,,,,,,,,,,,,,,,,,,,"1|i0geo5:",,,,,,,,,,,,,,,,,
+Перевірити роботу гарячої клавіші Ctrl+O для відкриття списку,TESPG177-665,190345,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Trivial,Done,,b.kotkov_g177,b.kotkov_g177,11/Apr/26 12:19 AM,11/Apr/26 1:26 AM,09/Sep/26 1:03 PM,11/Apr/26 1:26 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Існує збережений файл списку на диску
+
+*Steps to Reproduce:*
+# Натиснути комбінацію клавіш Ctrl+O
+# Обрати файл списку
+# Підтвердити відкриття
+
+*Expected Result:*
+Комбінація клавіш Ctrl+O відкриває список.",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"11/Apr/26 12:19 AM;b.kotkov_g177;2026-04-10 23-19-23.mp4;https://bt.qacloud.cc/secure/attachment/117949/2026-04-10+23-19-23.mp4",,,,,,,,,,,,,,,,,,,,"1|i0genx:",,,,,,,,,,,,,,,,,
+"Перевірити виклик контекстної довідки через F1 для елементів управління Add to List, Clear List, Ascending, Descending, Alphabetic, Numeric",TESPG177-664,190344,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Trivial,Done,,b.kotkov_g177,b.kotkov_g177,11/Apr/26 12:16 AM,14/Apr/26 11:14 PM,12/Sep/26 10:11 PM,14/Apr/26 11:14 PM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Послідовно обрати елементи управління: “Add to List”, “Clear List”, “Ascending”, “Descending”, “Alphabetic”, “Numeric”
+# Для кожного елемента натиснути клавішу F1
+# Перевірити реакцію програми
+
+*Expected Result:*
+Для кожного елемента управління викликається контекстна довідка при натисканні F1.
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"11/Apr/26 12:15 AM;b.kotkov_g177;2026-04-10 23-14-33.mp4;https://bt.qacloud.cc/secure/attachment/117948/2026-04-10+23-14-33.mp4",,,,,,,,,,,,,,,,,,,,"1|i0genp:",,,,,,,,,,,,,,,,,
+Перевірити наявність кнопки OK у вікні About ListBoxer,TESPG177-663,190343,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Minor,Done,,b.kotkov_g177,b.kotkov_g177,11/Apr/26 12:10 AM,11/Apr/26 1:26 AM,12/Sep/26 10:11 PM,11/Apr/26 1:26 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Відкрити меню “Help”
+# Обрати пункт “About ListBoxer”
+# Перевірити наявність кнопки “OK”
+
+*Expected Result:*
+У вікні “About ListBoxer” присутня кнопка “OK”.
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"11/Apr/26 12:09 AM;b.kotkov_g177;зображення_2026-04-10_230940193.png;https://bt.qacloud.cc/secure/attachment/117947/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_230940193.png",,,,,,,,,,,,,,,,,,,,"1|i0genh:",,,,,,,,,,,,,,,,,
+"Перевірити, що у вікні About ListBoxer відображається опис програми",TESPG177-662,190342,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Minor,Done,,b.kotkov_g177,b.kotkov_g177,11/Apr/26 12:08 AM,11/Apr/26 1:26 AM,12/Sep/26 10:11 PM,11/Apr/26 1:26 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Відкрити меню “Help”
+# Обрати пункт “About ListBoxer”
+# Перевірити вміст вікна
+
+*Expected Result:*
+У вікні “About ListBoxer” відображається опис програми.
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"11/Apr/26 12:08 AM;b.kotkov_g177;зображення_2026-04-10_230819962.png;https://bt.qacloud.cc/secure/attachment/117946/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_230819962.png",,,,,,,,,,,,,,,,,,,,"1|i0gen9:",,,,,,,,,,,,,,,,,
+"Перевірити, що у вікні About ListBoxer відображається версія програми",TESPG177-661,190341,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Minor,Done,,b.kotkov_g177,b.kotkov_g177,11/Apr/26 12:06 AM,11/Apr/26 1:26 AM,12/Sep/26 10:11 PM,11/Apr/26 1:26 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Відкрити додаток List Boxer 1.98
+# Відкрити меню “Help”
+# Обрати пункт “About ListBoxer”
+# Перевірити вміст вікна
+
+*Expected Result:*
+У вікні “About ListBoxer” відображається версія програми.
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"11/Apr/26 12:06 AM;b.kotkov_g177;2026-04-10 23-05-28.mp4;https://bt.qacloud.cc/secure/attachment/117945/2026-04-10+23-05-28.mp4",,,,,,,,,,,,,,,,,,,,"1|i0gen1:",,,,,,,,,,,,,,,,,
+Перевірити відкриття модального вікна програми About ListBoxer через дропдаун меню Help,TESPG177-660,190340,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Trivial,Done,,b.kotkov_g177,b.kotkov_g177,11/Apr/26 12:04 AM,11/Apr/26 1:26 AM,12/Sep/26 10:11 PM,11/Apr/26 1:26 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Відкрити меню “Help”
+# Обрати пункт “About ListBoxer”
+# Перевірити поведінку вікна
+
+*Expected Result:*
+Не вказано
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"11/Apr/26 12:04 AM;b.kotkov_g177;2026-04-10 23-02-32.mp4;https://bt.qacloud.cc/secure/attachment/117944/2026-04-10+23-02-32.mp4",,,,,,,,,,,,,,,,,,,,"1|i0gemt:",,,,,,,,,,,,,,,,,
+Перевірити наявність пункту About ListBoxer у дропдаун меню Help,TESPG177-659,190339,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Minor,Done,,b.kotkov_g177,b.kotkov_g177,11/Apr/26 12:01 AM,11/Apr/26 1:26 AM,12/Sep/26 10:11 PM,11/Apr/26 1:26 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Відкрити додаток List Boxer 1.98
+# Відкрити меню “Help”
+# Перевірити наявність пункту “About ListBoxer”
+
+*Expected Result:*
+У меню “Help” присутній пункт “About ListBoxer”.
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"11/Apr/26 12:00 AM;b.kotkov_g177;зображення_2026-04-10_230050851.png;https://bt.qacloud.cc/secure/attachment/117943/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_230050851.png",,,,,,,,,,,,,,,,,,,,"1|i0geml:",,,,,,,,,,,,,,,,,
+Перевірити наявність меню Help у головному вікні програми,TESPG177-658,190338,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Minor,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 11:58 PM,11/Apr/26 1:26 AM,12/Aug/26 9:08 PM,11/Apr/26 1:26 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Відкрити додаток List Boxer 1.98
+# Переглянути головне вікно програми
+
+*Expected Result:*
+У головному вікні присутнє меню “Help”.
+
+ ",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 11:58 PM;b.kotkov_g177;зображення_2026-04-10_225808685.png;https://bt.qacloud.cc/secure/attachment/117942/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_225808685.png",,,,,,,,,,,,,,,,,,,,"1|i0gemd:",,,,,,,,,,,,,,,,,
+"Перевірити, що після скасування останньої дії можна продовжити роботу зі списком без помилок",TESPG177-657,190337,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 11:56 PM,11/Apr/26 1:25 AM,12/Aug/26 9:08 PM,11/Apr/26 1:25 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Додати новий елемент до списку
+# Виконати Undo через меню “Edit”
+# Ввести нове значення у поле вводу
+# Натиснути “Add to List” або Enter
+# Перевірити список
+
+*Expected Result:*
+Після виконання Undo можна продовжити роботу зі списком без помилок. Нові елементи коректно додаються.
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 11:56 PM;b.kotkov_g177;2026-04-10 22-55-29.mp4;https://bt.qacloud.cc/secure/attachment/117941/2026-04-10+22-55-29.mp4",,,,,,,,,,,,,,,,,,,,"1|i0gem5:",,,,,,,,,,,,,,,,,
+"Перевірити, що Undo не викликає помилку при порожньому списку",TESPG177-656,190336,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Trivial,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 11:52 PM,11/Apr/26 1:25 AM,12/Sep/26 10:11 PM,11/Apr/26 1:25 AM,,,,,0,,"*Preconditions:*
+ # Додаток List Boxer 1.98 запущений
+ # Список порожній
+
+*Steps to Reproduce:*
+ # Відкрити меню “Edit”
+ # Обрати команду “Undo”
+
+*Expected Result:*
+Команда “Undo” не викликає помилок або аварійного завершення програми при порожньому списку.",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 11:52 PM;b.kotkov_g177;2026-04-10 22-52-24.mp4;https://bt.qacloud.cc/secure/attachment/117940/2026-04-10+22-52-24.mp4",,,,,,,,,,,,,,,,,,,,"1|i0gelx:",,,,,,,,,,,,,,,,,
+"Перевірити поведінку команди Undo, якщо до цього не було виконано жодної дії",TESPG177-655,190335,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Minor,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 11:49 PM,11/Apr/26 1:25 AM,12/Sep/26 10:11 PM,11/Apr/26 1:25 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Жодних дій зі списком не виконано
+
+*Steps to Reproduce:*
+# Відкрити додаток List Boxer 1.98
+# Відкрити меню “Edit”
+# Обрати команду “Undo”
+
+*Expected Result:*
+Не вказано ",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 11:49 PM;b.kotkov_g177;2026-04-10 22-48-51.mp4;https://bt.qacloud.cc/secure/attachment/117939/2026-04-10+22-48-51.mp4",,,,,,,,,,,,,,,,,,,,"1|i0gelp:",,,,,,,,,,,,,,,,,
+Перевірити скасування останньої дії після очищення списку через Clear List,TESPG177-654,190334,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 11:47 PM,14/Apr/26 11:13 PM,12/Sep/26 10:11 PM,14/Apr/26 11:13 PM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Додати кілька елементів до списку
+# Натиснути кнопку “Clear List”
+# Відкрити меню “Edit”
+# Обрати команду “Undo”
+# Перевірити список
+
+*Expected Result:*
+Остання дія (очищення списку) скасовується. Список відновлюється до попереднього стану з усіма елементами. ",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 11:47 PM;b.kotkov_g177;2026-04-10 22-44-58.mp4;https://bt.qacloud.cc/secure/attachment/117938/2026-04-10+22-44-58.mp4",,,,,,,,,,,,,,,,,,,,"1|i0gelh:",,,,,,,,,,,,,,,,,
+"Перевірити, що після Undo лічильник записів у списку оновлюється коректно",TESPG177-653,190333,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Trivial,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 11:42 PM,11/Apr/26 1:25 AM,12/Sep/26 10:11 PM,11/Apr/26 1:25 AM,,,,,0,,"*Preconditions:*
+ # Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+ # Додати кілька елементів до списку
+ # Запам’ятати значення лічильника записів
+ # Відкрити меню “Edit”
+ # Обрати команду “Undo”
+ # Перевірити значення лічильника записів
+
+*Expected Result:*
+Не вказано",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 11:42 PM;b.kotkov_g177;2026-04-10 22-42-09.mp4;https://bt.qacloud.cc/secure/attachment/117937/2026-04-10+22-42-09.mp4",,,,,,,,,,,,,,,,,,,,"1|i0gel9:",,,,,,,,,,,,,,,,,
+"Перевірити, що Undo скасовує тільки останню дію, а не всі попередні одразу",TESPG177-652,190332,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 11:39 PM,11/Apr/26 1:25 AM,12/Sep/26 10:06 PM,11/Apr/26 1:25 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Обрано режим роботи
+# Список порожній
+
+*Steps to Reproduce:*
+# Додати перший елемент до списку
+# Додати другий елемент до списку
+# Відкрити меню “Edit”
+# Обрати команду “Undo”
+# Перевірити список
+
+*Expected Result:*
+Скасовується лише остання дія. Другий елемент видаляється, перший залишається у списку. ",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 11:38 PM;b.kotkov_g177;2026-04-10 22-38-26.mp4;https://bt.qacloud.cc/secure/attachment/117936/2026-04-10+22-38-26.mp4",,,,,,,,,,,,,,,,,,,,"1|i0gel1:",,,,,,,,,,,,,,,,,
+Перевірити скасування останньої дії після додавання одного елемента в список через Undo в меню Edit,TESPG177-651,190331,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 11:33 PM,14/Apr/26 11:13 PM,09/Sep/26 12:52 PM,14/Apr/26 11:13 PM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Обрано режим роботи
+# Список порожній
+
+*Steps to Reproduce:*
+# Ввести значення у поле вводу
+# Натиснути “Add to List” або Enter
+# Відкрити меню “Edit”
+# Обрати команду “Undo”
+# Перевірити список
+
+*Expected Result:*
+Остання дія (додавання елемента) скасовується. Список повертається до попереднього стану (елемент відсутній). 
+
+ ",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 11:32 PM;b.kotkov_g177;2026-04-10 22-32-23.mp4;https://bt.qacloud.cc/secure/attachment/117935/2026-04-10+22-32-23.mp4",,,,,,,,,,,,,,,,,,,,"1|i0gekt:",,,,,,,,,,,,,,,,,
+Перевірити наявність команди Undo в меню Edit,TESPG177-650,190330,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Minor,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 11:25 PM,11/Apr/26 1:25 AM,12/Sep/26 10:11 PM,11/Apr/26 1:25 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Відкрити меню “Edit”
+# Перевірити наявність команди “Undo”
+
+*Expected Result:*
+У меню “Edit” присутня команда “Undo”.",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 11:25 PM;b.kotkov_g177;зображення_2026-04-10_222549899.png;https://bt.qacloud.cc/secure/attachment/117934/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_222549899.png",,,,,,,,,,,,,,,,,,,,"1|i0gekl:",,,,,,,,,,,,,,,,,
+Перевірити багаторазове натискання Clear List,TESPG177-649,190329,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Trivial,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 11:24 PM,11/Apr/26 1:25 AM,12/Sep/26 10:11 PM,11/Apr/26 1:25 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Додати кілька елементів до списку
+# Натиснути кнопку “Clear List”
+# Повторно натиснути кнопку “Clear List” кілька разів
+# Перевірити список
+
+*Expected Result:*
+Уся введена інформація у списку видаляється. Подальші натискання кнопки “Clear List” не призводять до помилок або аварійного завершення програми.",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 11:24 PM;b.kotkov_g177;2026-04-10 22-23-39.mp4;https://bt.qacloud.cc/secure/attachment/117933/2026-04-10+22-23-39.mp4",,,,,,,,,,,,,,,,,,,,"1|i0gekd:",,,,,,,,,,,,,,,,,
+Перевірити натискання Clear List при порожньому списку,TESPG177-635,190315,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Minor,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 8:11 PM,11/Apr/26 1:25 AM,10/Sep/26 12:29 PM,11/Apr/26 1:25 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Список порожній
+
+*Steps to Reproduce:*
+# Переконатися, що список не містить елементів
+# Натиснути кнопку “Clear List”
+
+*Expected Result:*
+Не вказано",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 8:10 PM;b.kotkov_g177;2026-04-10 19-10-33.mp4;https://bt.qacloud.cc/secure/attachment/117929/2026-04-10+19-10-33.mp4",,,,,,,,,,,,,,,,,,,,"1|i0geh9:",,,,,,,,,,,,,,,,,
+"Перевірити, що після очищення списку можна повторно додавати нові елементи",TESPG177-634,190314,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 8:08 PM,11/Apr/26 1:25 AM,12/Sep/26 10:11 PM,11/Apr/26 1:25 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Додати кілька елементів до списку
+# Натиснути кнопку “Clear List”
+# Ввести нове значення у поле вводу
+# Натиснути “Add to List” або Enter
+# Перевірити список
+
+*Expected Result:*
+Після очищення списку можна повторно додавати нові елементи до списку. 
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 8:08 PM;b.kotkov_g177;2026-04-10 19-07-59.mp4;https://bt.qacloud.cc/secure/attachment/117928/2026-04-10+19-07-59.mp4",,,,,,,,,,,,,,,,,,,,"1|i0geh1:",,,,,,,,,,,,,,,,,
+"Перевірити можливість видалення всієї введеної інформації незалежно від того які чекбокси вибрані у групі ""Symbols""",TESPG177-633,190313,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 8:03 PM,11/Apr/26 1:25 AM,12/Sep/26 10:11 PM,11/Apr/26 1:25 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Додати кілька елементів до списку
+# Обрати checkbox “Alphabetic”, “Numeric” або обидва
+# Натиснути кнопку “Clear List”
+# Перевірити список
+
+*Expected Result:*
+Уся введена інформація у списку видаляється незалежно від обраних checkbox у групі “Symbols”.
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 8:03 PM;b.kotkov_g177;2026-04-10 19-02-17.mp4;https://bt.qacloud.cc/secure/attachment/117927/2026-04-10+19-02-17.mp4",,,,,,,,,,,,,,,,,,,,"1|i0gegt:",,,,,,,,,,,,,,,,,
+Перевірити можливість видалення всієї введеної інформації незалежно від вибраного сортування,TESPG177-632,190312,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 8:00 PM,11/Apr/26 1:24 AM,12/Sep/26 10:11 PM,11/Apr/26 1:24 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Додати кілька елементів до списку
+# Обрати option button “Ascending” або “Descending”
+# Натиснути кнопку “Clear List”
+# Перевірити список
+
+*Expected Result:*
+Уся введена інформація у списку видаляється незалежно від вибраного сортування. 
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 7:59 PM;b.kotkov_g177;2026-04-10 18-59-12.mp4;https://bt.qacloud.cc/secure/attachment/117926/2026-04-10+18-59-12.mp4",,,,,,,,,,,,,,,,,,,,"1|i0gegl:",,,,,,,,,,,,,,,,,
+Перевірити можливість видалення всієї введеної інформації після додавання кількох елементів,TESPG177-631,190311,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 7:57 PM,11/Apr/26 1:24 AM,12/Sep/26 10:11 PM,11/Apr/26 1:24 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# У списку відсутні елементи
+
+*Steps to Reproduce:*
+# Ввести перше значення у поле вводу
+# Натиснути “Add to List” або Enter
+# Ввести друге значення у поле вводу
+# Натиснути “Add to List” або Enter
+# Повторити додавання ще кількох елементів
+# Натиснути кнопку “Clear List”
+# Перевірити список
+
+*Expected Result:*
+Уся введена інформація у списку видаляється після натискання кнопки “Clear List”. 
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 7:56 PM;b.kotkov_g177;2026-04-10 18-56-07.mp4;https://bt.qacloud.cc/secure/attachment/117925/2026-04-10+18-56-07.mp4",,,,,,,,,,,,,,,,,,,,"1|i0gegd:",,,,,,,,,,,,,,,,,
+Перевірити можливість видалення всієї введеної інформації після додавання одного елемента,TESPG177-630,190310,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 7:52 PM,14/Apr/26 11:13 PM,12/Sep/26 10:11 PM,14/Apr/26 11:13 PM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# У списку відсутні елементи
+
+*Steps to Reproduce:*
+# Ввести значення у поле вводу
+# Натиснути “Add to List” або Enter
+# Натиснути кнопку “Clear List”
+# Перевірити список
+
+*Expected Result:*
+Уся введена інформація у списку видаляється після натискання кнопки “Clear List”. 
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 7:52 PM;b.kotkov_g177;2026-04-10 18-51-44.mp4;https://bt.qacloud.cc/secure/attachment/117924/2026-04-10+18-51-44.mp4",,,,,,,,,,,,,,,,,,,,"1|i0geg5:",,,,,,,,,,,,,,,,,
+"Перевірити, що після очищення списку лічильники ""Records in list"", ""Total Records"" оновлюються коректно і виводять коректну кількість записів",TESPG177-629,190309,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Trivial,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 7:49 PM,11/Apr/26 1:24 AM,12/Sep/26 10:11 PM,11/Apr/26 1:24 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Існує список із кількома елементами
+
+*Steps to Reproduce:*
+# Запам’ятати значення лічильників “Records in list” та “Total Records”
+# Натиснути кнопку “Clear List”
+# Перевірити значення лічильників
+
+*Expected Result:*
+Не вказано
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 7:49 PM;b.kotkov_g177;2026-04-10 18-48-43.mp4;https://bt.qacloud.cc/secure/attachment/117923/2026-04-10+18-48-43.mp4",,,,,,,,,,,,,,,,,,,,"1|i0gefx:",,,,,,,,,,,,,,,,,
+Перевірити видалення всієї введеної інформації через кнопку Clear List,TESPG177-627,190307,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 7:45 PM,11/Apr/26 1:24 AM,12/Sep/26 10:11 PM,11/Apr/26 1:24 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Додати кілька елементів до списку
+# Натиснути кнопку “Clear List”
+# Перевірити список
+
+*Expected Result:*
+Уся введена інформація у списку видаляється через кнопку “Clear List”. 
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 7:45 PM;b.kotkov_g177;2026-04-10 18-45-08.mp4;https://bt.qacloud.cc/secure/attachment/117922/2026-04-10+18-45-08.mp4",,,,,,,,,,,,,,,,,,,,"1|i0gefh:",,,,,,,,,,,,,,,,,
+Перевірити багаторазове швидке натискання клавіші Enter,TESPG177-626,190306,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 7:40 PM,14/Apr/26 11:13 PM,12/Sep/26 10:11 PM,14/Apr/26 11:13 PM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# У полі вводу введено коректне значення відповідно до обраного режиму
+
+*Steps to Reproduce:*
+# Ввести значення у поле вводу
+# Швидко натискати клавішу Enter кілька разів підряд
+# Перевірити список
+
+*Expected Result:*
+Не вказано",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 7:39 PM;b.kotkov_g177;2026-04-10 18-39-26.mp4;https://bt.qacloud.cc/secure/attachment/117921/2026-04-10+18-39-26.mp4",,,,,,,,,,,,,,,,,,,,"1|i0gef9:",,,,,,,,,,,,,,,,,
+Перевірити багаторазове швидке натискання кнопки Add to List,TESPG177-625,190305,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 7:37 PM,14/Apr/26 11:13 PM,10/Sep/26 12:29 PM,14/Apr/26 11:13 PM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# У полі вводу введено коректне значення відповідно до обраного режиму
+
+*Steps to Reproduce:*
+# Ввести значення у поле вводу
+# Швидко натискати кнопку “Add to List” кілька разів підряд
+# Перевірити список
+
+*Expected Result:*
+Не вказано",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 7:36 PM;b.kotkov_g177;2026-04-10 18-35-50.mp4;https://bt.qacloud.cc/secure/attachment/117920/2026-04-10+18-35-50.mp4",,,,,,,,,,,,,,,,,,,,"1|i0gef1:",,,,,,,,,,,,,,,,,
+Перевірити поведінку програми при натисканні Enter з порожнім полем вводу,TESPG177-624,190304,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 7:33 PM,14/Apr/26 11:13 PM,12/Sep/26 10:11 PM,14/Apr/26 11:13 PM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Поле вводу порожнє
+
+*Steps to Reproduce:*
+# Переконатися, що поле вводу не містить значення
+# Натиснути клавішу Enter
+
+*Expected Result:*
+Не вказано",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 7:33 PM;b.kotkov_g177;2026-04-10 18-32-38.mp4;https://bt.qacloud.cc/secure/attachment/117919/2026-04-10+18-32-38.mp4",,,,,,,,,,,,,,,,,,,,"1|i0geet:",,,,,,,,,,,,,,,,,
+Перевірити поведінку програми при натисканні Add to List з порожнім полем вводу,TESPG177-622,190302,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 7:28 PM,14/Apr/26 11:13 PM,12/Sep/26 10:11 PM,14/Apr/26 11:13 PM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Поле вводу порожнє
+
+*Steps to Reproduce:*
+# Відкрити додаток List Boxer 1.98
+# Переконатися, що поле вводу не містить значення
+# Натиснути кнопку “Add to List”
+
+*Expected Result:*
+Не вказано",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 7:31 PM;b.kotkov_g177;2026-04-10 18-30-33.mp4;https://bt.qacloud.cc/secure/attachment/117918/2026-04-10+18-30-33.mp4",,,,,,,,,,,,,,,,,,,,"1|i0geed:",,,,,,,,,,,,,,,,,
+"Перевірити, що доданий рядок зберігається у списку після додавання наступного рядка",TESPG177-621,190301,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 7:23 PM,11/Apr/26 1:24 AM,10/Sep/26 12:29 PM,11/Apr/26 1:24 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Обрано режим роботи
+# У полі вводу введено коректне значення
+
+*Steps to Reproduce:*
+# Ввести перше значення у поле вводу
+# Натиснути “Add to List” або Enter
+# Ввести друге значення у поле вводу
+# Натиснути “Add to List” або Enter
+# Перевірити список
+
+*Expected Result:*
+Перший доданий рядок зберігається у списку після додавання наступного рядка, обидва значення присутні у списку.",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 7:23 PM;b.kotkov_g177;2026-04-10 18-23-17.mp4;https://bt.qacloud.cc/secure/attachment/117916/2026-04-10+18-23-17.mp4",,,,,,,,,,,,,,,,,,,,"1|i0gee5:",,,,,,,,,,,,,,,,,
+"Перевірити, що після натискання Enter введене значення відображається у списку",TESPG177-620,190300,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 7:22 PM,11/Apr/26 1:24 AM,12/Sep/26 10:11 PM,11/Apr/26 1:24 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# У полі вводу введено коректне значення відповідно до обраного режиму
+
+*Steps to Reproduce:*
+# Ввести значення у поле вводу
+# Натиснути клавішу Enter
+# Перевірити список
+
+*Expected Result:*
+Після натискання Enter введене значення відображається у списку. 
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 7:21 PM;b.kotkov_g177;2026-04-10 18-21-25.mp4;https://bt.qacloud.cc/secure/attachment/117915/2026-04-10+18-21-25.mp4",,,,,,,,,,,,,,,,,,,,"1|i0gedx:",,,,,,,,,,,,,,,,,
+"Перевірити, що після натискання Add to List введене значення відображається у списку",TESPG177-619,190299,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 7:20 PM,11/Apr/26 1:24 AM,10/Sep/26 12:29 PM,11/Apr/26 1:24 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# У полі вводу введено коректне значення відповідно до обраного режиму
+
+*Steps to Reproduce:*
+
+# Ввести значення у поле вводу
+# Натиснути кнопку “Add to List”
+# Перевірити список
+
+*Expected Result:*
+Після натискання “Add to List” введене значення відображається у списку. ",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 7:19 PM;b.kotkov_g177;2026-04-10 18-19-34.mp4;https://bt.qacloud.cc/secure/attachment/117914/2026-04-10+18-19-34.mp4",,,,,,,,,,,,,,,,,,,,"1|i0gedp:",,,,,,,,,,,,,,,,,
+Перевірити додавання рядка в список натисканням клавіші Enter,TESPG177-616,190296,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 5:30 PM,11/Apr/26 1:24 AM,12/Aug/26 9:09 PM,11/Apr/26 1:24 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# У полі вводу введено коректне значення відповідно до обраного режиму
+
+*Steps to Reproduce:*
+# Ввести значення у поле вводу
+# Натиснути клавішу Enter
+# Перевірити список
+
+*Expected Result:*
+Рядок додається до списку після натискання клавіші Enter.
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 5:30 PM;b.kotkov_g177;2026-04-10 16-29-30.mp4;https://bt.qacloud.cc/secure/attachment/117910/2026-04-10+16-29-30.mp4",,,,,,,,,,,,,,,,,,,,"1|i0ged1:",,,,,,,,,,,,,,,,,
+Перевірити додавання рядка в список натисканням кнопки Add to List,TESPG177-615,190295,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 5:26 PM,11/Apr/26 1:24 AM,12/Sep/26 10:11 PM,11/Apr/26 1:24 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# У полі вводу введено коректне значення відповідно до обраного режиму
+
+*Steps to Reproduce:*
+# Ввести значення у поле вводу
+# Натиснути кнопку “Add to List”
+# Перевірити список
+
+*Expected Result:*
+Рядок додається до списку після натискання кнопки “Add to List”. 
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 5:25 PM;b.kotkov_g177;2026-04-10 16-25-14.mp4;https://bt.qacloud.cc/secure/attachment/117909/2026-04-10+16-25-14.mp4",,,,,,,,,,,,,,,,,,,,"1|i0gect:",,,,,,,,,,,,,,,,,
+"Перевірити, що checkboxes Alphabetic і Numeric розміщені в групі Symbols",TESPG177-613,190293,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Trivial,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 5:21 PM,11/Apr/26 1:24 AM,12/Aug/26 9:09 PM,11/Apr/26 1:24 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Знайти групу “Symbols”
+# Перевірити розташування checkbox “Alphabetic”
+# Перевірити розташування checkbox “Numeric”
+
+*Expected Result:*
+Checkbox “Alphabetic” і “Numeric” розміщені в групі “Symbols”. ",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 5:21 PM;b.kotkov_g177;зображення_2026-04-10_162127591.png;https://bt.qacloud.cc/secure/attachment/117908/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_162127591.png",,,,,,,,,,,,,,,,,,,,"1|i0gecd:",,,,,,,,,,,,,,,,,
+"Перевірити що checkboxes ""Alphabetic"" і ""Numeric"" клікабельні(можна поставити або зняти галочку)",TESPG177-612,190292,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Trivial,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 5:19 PM,11/Apr/26 1:24 AM,12/Sep/26 10:10 PM,11/Apr/26 1:24 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Знайти checkbox “Alphabetic” у групі “Symbols”
+# Натиснути на checkbox “Alphabetic” (поставити галочку)
+# Натиснути ще раз (зняти галочку)
+# Повторити ті ж дії для checkbox “Numeric”
+
+*Expected Result:*
+Checkbox “Alphabetic” і “Numeric” клікабельні: можна встановити та зняти галочку.
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 5:19 PM;b.kotkov_g177;2026-04-10 16-18-49.mp4;https://bt.qacloud.cc/secure/attachment/117907/2026-04-10+16-18-49.mp4",,,,,,,,,,,,,,,,,,,,"1|i0gec5:",,,,,,,,,,,,,,,,,
+"Перевірити наявність checkbox ""Numeric"" у групі Symbols",TESPG177-611,190291,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Minor,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 5:13 PM,11/Apr/26 1:23 AM,10/Sep/26 12:29 PM,11/Apr/26 1:23 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Знайти групу “Symbols”
+# Перевірити наявність checkbox “Numeric”
+
+*Expected Result:*
+У групі “Symbols” присутній checkbox “Numeric”",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 5:13 PM;b.kotkov_g177;зображення_2026-04-10_161304569.png;https://bt.qacloud.cc/secure/attachment/117906/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_161304569.png",,,,,,,,,,,,,,,,,,,,"1|i0gebx:",,,,,,,,,,,,,,,,,
+"Перевірити наявність checkbox ""Alphabetic"" у групі Symbols",TESPG177-610,190290,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Minor,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 5:10 PM,11/Apr/26 1:23 AM,12/Sep/26 10:11 PM,11/Apr/26 1:23 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Знайти групу “Symbols”
+# Перевірити наявність checkbox “Alphabetic”
+
+*Expected Result:*
+У групі “Symbols” присутній checkbox “Alphabetic”.
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 5:10 PM;b.kotkov_g177;зображення_2026-04-10_161038950.png;https://bt.qacloud.cc/secure/attachment/117905/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_161038950.png",,,,,,,,,,,,,,,,,,,,"1|i0gebp:",,,,,,,,,,,,,,,,,
+Перевірити наявність групи Symbols,TESPG177-609,190289,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Trivial,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 5:08 PM,11/Apr/26 1:23 AM,12/Sep/26 10:11 PM,11/Apr/26 1:23 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Переглянути інтерфейс користувача
+
+*Expected Result:*
+У інтерфейсі присутня група “Symbols”
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 5:08 PM;b.kotkov_g177;зображення_2026-04-10_160805783.png;https://bt.qacloud.cc/secure/attachment/117904/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_160805783.png",,,,,,,,,,,,,,,,,,,,"1|i0gebh:",,,,,,,,,,,,,,,,,
+"Перевірити що option button ""Descending"" у групі Sort Order сортує порядок списку за спаданням",TESPG177-608,190288,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Trivial,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 5:06 PM,14/Apr/26 11:14 PM,12/Sep/26 10:11 PM,14/Apr/26 11:14 PM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Існує список із кількома елементами
+
+*Steps to Reproduce:*
+# Додати кілька елементів до списку
+# Обрати option button “Descending”
+# Перевірити порядок елементів у списку
+
+*Expected Result:*
+Option button “Descending” сортує список за спаданням.
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 4:57 PM;b.kotkov_g177;зображення_2026-04-10_155705031.png;https://bt.qacloud.cc/secure/attachment/117903/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_155705031.png",,,,,,,,,,,,,,,,,,,,"1|i0geb9:",,,,,,,,,,,,,,,,,
+"Перевірити, що option button ""Ascending"" у групі Sort Order сортує порядок списку за зростанням",TESPG177-607,190287,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Trivial,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 4:52 PM,11/Apr/26 1:23 AM,10/Sep/26 12:29 PM,11/Apr/26 1:23 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Існує список із кількома елементами
+
+*Steps to Reproduce:*
+# Додати кілька елементів до списку
+# Обрати option button “Ascending”
+# Перевірити порядок елементів у списку
+
+*Expected Result:*
+Option button “Ascending” сортує список за зростанням.",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 4:52 PM;b.kotkov_g177;зображення_2026-04-10_155224347.png;https://bt.qacloud.cc/secure/attachment/117902/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_155224347.png",,,,,,,,,,,,,,,,,,,,"1|i0geb1:",,,,,,,,,,,,,,,,,
+"Перевірити, що в групі Sort Order можна вибрати тільки один option button одночасно",TESPG177-606,190286,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Trivial,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 4:46 PM,11/Apr/26 1:23 AM,12/Sep/26 10:11 PM,11/Apr/26 1:23 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Знайти групу “Sort Order”
+# Обрати option button “Ascending”
+# Обрати option button “Descending”
+# Перевірити стан option button “Ascending”
+
+*Expected Result:*
+У групі “Sort Order” одночасно може бути обраний лише один option button. При виборі “Descending” попередній вибір “Ascending” скасовується.
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 4:46 PM;b.kotkov_g177;ListBoxer - Untitled 2026-04-10 15-44-52.mp4;https://bt.qacloud.cc/secure/attachment/117901/ListBoxer+-+Untitled+2026-04-10+15-44-52.mp4",,,,,,,,,,,,,,,,,,,,"1|i0geat:",,,,,,,,,,,,,,,,,
+"Перевірити наявність option button ""Descending"" у групі Sort Order",TESPG177-605,190285,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Minor,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 4:42 PM,11/Apr/26 1:23 AM,12/Sep/26 10:11 PM,11/Apr/26 1:23 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Знайти групу “Sort Order”
+# Перевірити наявність option button “Descending”
+
+*Expected Result:*
+У групі “Sort Order” присутній option button “Descending”.",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 4:42 PM;b.kotkov_g177;зображення_2026-04-10_154231858.png;https://bt.qacloud.cc/secure/attachment/117900/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_154231858.png",,,,,,,,,,,,,,,,,,,,"1|i0geal:",,,,,,,,,,,,,,,,,
+"Перевірити наявність option button ""Ascending"" у групі Sort Order",TESPG177-604,190284,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Minor,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 4:40 PM,11/Apr/26 1:23 AM,12/Sep/26 10:11 PM,11/Apr/26 1:23 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Знайти групу “Sort Order”
+# Перевірити наявність option button “Ascending”
+
+*Expected Result:*
+У групі “Sort Order” присутній option button “Ascending”.",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 4:40 PM;b.kotkov_g177;зображення_2026-04-10_154017932.png;https://bt.qacloud.cc/secure/attachment/117899/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_154017932.png",,,,,,,,,,,,,,,,,,,,"1|i0gead:",,,,,,,,,,,,,,,,,
+Перевірити наявність групи Sort Order,TESPG177-603,190283,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Trivial,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 4:38 PM,11/Apr/26 1:23 AM,12/Sep/26 10:11 PM,11/Apr/26 1:23 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+
+# Переглянути інтерфейс користувача
+
+*Expected Result:*
+У інтерфейсі присутня група “Sort Order”.
+
+ ",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 4:38 PM;b.kotkov_g177;зображення_2026-04-10_153805197.png;https://bt.qacloud.cc/secure/attachment/117898/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_153805197.png",,,,,,,,,,,,,,,,,,,,"1|i0gea5:",,,,,,,,,,,,,,,,,
+Натиснути на кнопку Add to List,TESPG177-602,190282,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 4:34 PM,11/Apr/26 1:23 AM,12/Sep/26 10:11 PM,11/Apr/26 1:23 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Ввести значення у поле вводу
+# Натиснути кнопку “Add to List”
+
+*Expected Result:*
+Введене значення додається до списку.
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 4:33 PM;b.kotkov_g177;зображення_2026-04-10_153359030.png;https://bt.qacloud.cc/secure/attachment/117897/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_153359030.png","10/Apr/26 4:34 PM;b.kotkov_g177;зображення_2026-04-10_153407027.png;https://bt.qacloud.cc/secure/attachment/117896/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_153407027.png",,,,,,,,,,,,,,,,,,,"1|i0ge9x:",,,,,,,,,,,,,,,,,
+Перевірити коректність назви кнопки Add to List,TESPG177-601,190281,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Minor,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 4:30 PM,11/Apr/26 1:23 AM,12/Sep/26 10:11 PM,11/Apr/26 1:23 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Знайти кнопку додавання елемента до списку
+# Перевірити текст на кнопці
+
+*Expected Result:*
+Назва кнопки відображається як “Add to List”.",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 4:30 PM;b.kotkov_g177;зображення_2026-04-10_153024027.png;https://bt.qacloud.cc/secure/attachment/117895/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_153024027.png",,,,,,,,,,,,,,,,,,,,"1|i0ge9p:",,,,,,,,,,,,,,,,,
+Перевірити наявність кнопки Add to List,TESPG177-600,190280,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Trivial,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 4:20 PM,11/Apr/26 1:23 AM,12/Sep/26 10:11 PM,11/Apr/26 1:23 AM,,,,,0,,"*Preconditions:*
+ # Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+ # Відкрити додаток List Boxer 1.98
+ # Переглянути інтерфейс користувача
+
+*Expected Result:*
+У інтерфейсі присутня кнопка “Add to List”.",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 4:21 PM;b.kotkov_g177;зображення_2026-04-10_152109840.png;https://bt.qacloud.cc/secure/attachment/117894/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_152109840.png",,,,,,,,,,,,,,,,,,,,"1|i0ge9h:",,,,,,,,,,,,,,,,,
+"Перевірити, що кнопка Clear List не доступна для натискання коли у списку немає записів",TESPG177-599,190279,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Minor,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 4:19 PM,11/Apr/26 1:23 AM,12/Sep/26 10:11 PM,11/Apr/26 1:23 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Список порожній
+
+*Steps to Reproduce:*
+# Переконатися, що список не містить елементів
+# Перевірити стан кнопки “Clear List”
+
+*Expected Result:*
+Не вказано",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 4:18 PM;b.kotkov_g177;зображення_2026-04-10_151851933.png;https://bt.qacloud.cc/secure/attachment/117893/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_151851933.png",,,,,,,,,,,,,,,,,,,,"1|i0ge99:",,,,,,,,,,,,,,,,,
+"Перевірити, що кнопка Clear List видаляє всю введену інформацію",TESPG177-598,190278,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 4:16 PM,11/Apr/26 1:22 AM,12/Sep/26 10:11 PM,11/Apr/26 1:22 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Існує список з кількома елементами
+
+*Steps to Reproduce:*
+# Додати кілька елементів до списку
+# Натиснути кнопку “Clear List”
+# Перевірити стан списку
+
+*Expected Result:*
+Кнопка “Clear List” видаляє всю введену інформацію зі списку.",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 4:15 PM;b.kotkov_g177;зображення_2026-04-10_151548750.png;https://bt.qacloud.cc/secure/attachment/117892/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_151548750.png","10/Apr/26 4:16 PM;b.kotkov_g177;зображення_2026-04-10_151627861.png;https://bt.qacloud.cc/secure/attachment/117891/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_151627861.png",,,,,,,,,,,,,,,,,,,"1|i0ge91:",,,,,,,,,,,,,,,,,
+Натиснути на кнопку Clear List,TESPG177-597,190277,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 4:12 PM,11/Apr/26 1:22 AM,12/Sep/26 10:11 PM,11/Apr/26 1:22 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Існує список з елементами
+
+*Steps to Reproduce:*
+# Переконатися, що список містить елементи
+# Натиснути кнопку “Clear List”
+
+*Expected Result:*
+Уся введена інформація у списку видаляється.",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 4:12 PM;b.kotkov_g177;зображення_2026-04-10_151217798.png;https://bt.qacloud.cc/secure/attachment/117890/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_151217798.png","10/Apr/26 4:12 PM;b.kotkov_g177;зображення_2026-04-10_151247843.png;https://bt.qacloud.cc/secure/attachment/117889/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_151247843.png",,,,,,,,,,,,,,,,,,,"1|i0ge8t:",,,,,,,,,,,,,,,,,
+Перевірити коректність назви кнопки Clear List,TESPG177-596,190276,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Minor,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 4:09 PM,11/Apr/26 1:22 AM,12/Sep/26 10:11 PM,11/Apr/26 1:22 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Знайти кнопку очищення списку
+# Перевірити текст на кнопці
+
+*Expected Result:*
+Назва кнопки відображається як “Clear List”.",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 4:09 PM;b.kotkov_g177;зображення_2026-04-10_150948529.png;https://bt.qacloud.cc/secure/attachment/117888/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_150948529.png",,,,,,,,,,,,,,,,,,,,"1|i0ge8l:",,,,,,,,,,,,,,,,,
+Перевірити наявність кнопки Clear List,TESPG177-595,190275,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Trivial,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 4:03 PM,11/Apr/26 1:21 AM,12/Sep/26 10:11 PM,11/Apr/26 1:21 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Переглянути інтерфейс користувача
+
+*Expected Result:*
+У інтерфейсі присутня кнопка “Clear List”.",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 4:03 PM;b.kotkov_g177;зображення_2026-04-10_150345719.png;https://bt.qacloud.cc/secure/attachment/117887/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_150345719.png",,,,,,,,,,,,,,,,,,,,"1|i0ge8d:",,,,,,,,,,,,,,,,,
+"Перевірити, що після видалення список більше недоступний користувачу",TESPG177-594,190274,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 4:02 PM,11/Apr/26 1:21 AM,12/Sep/26 10:11 PM,11/Apr/26 1:21 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Існує створений або відкритий список
+
+*Steps to Reproduce:*
+# Переконатися, що список містить елементи
+# Виконати видалення списку (наприклад, через кнопку “Clear List”)
+# Перевірити відображення списку
+
+*Expected Result:*
+Після видалення список більше не містить даних і недоступний для перегляду.",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 4:01 PM;b.kotkov_g177;зображення_2026-04-10_150104186.png;https://bt.qacloud.cc/secure/attachment/117886/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_150104186.png","10/Apr/26 4:01 PM;b.kotkov_g177;зображення_2026-04-10_150140133.png;https://bt.qacloud.cc/secure/attachment/117885/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_150140133.png",,,,,,,,,,,,,,,,,,,"1|i0ge85:",,,,,,,,,,,,,,,,,
+Перевірити можливість видалення списку,TESPG177-593,190273,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 3:59 PM,11/Apr/26 1:21 AM,12/Sep/26 10:11 PM,11/Apr/26 1:21 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Існує створений або відкритий список
+
+*Steps to Reproduce:*
+# Переконатися, що список містить елементи
+# Виконати видалення списку (через кнопку “Clear List”)
+# Перевірити стан списку
+
+*Expected Result:*
+Список видаляється (очищається) з додатку.",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 3:58 PM;b.kotkov_g177;зображення_2026-04-10_145850666.png;https://bt.qacloud.cc/secure/attachment/117884/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_145850666.png","10/Apr/26 3:59 PM;b.kotkov_g177;зображення_2026-04-10_145909092.png;https://bt.qacloud.cc/secure/attachment/117883/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_145909092.png",,,,,,,,,,,,,,,,,,,"1|i0ge7x:",,,,,,,,,,,,,,,,,
+"Перевірити, що після відкриття список містить коректні збережені дані",TESPG177-592,190272,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 3:55 PM,14/Apr/26 11:13 PM,12/Sep/26 10:11 PM,14/Apr/26 11:13 PM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Існує збережений файл списку з відомими даними
+
+*Steps to Reproduce:*
+# Викликати команду відкриття файлу (наприклад, через меню або Ctrl+O)
+# Обрати раніше збережений файл списку
+# Підтвердити відкриття
+# Перевірити вміст списку
+
+*Expected Result:*
+Після відкриття список містить коректні збережені дані.",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"11/Apr/26 12:55 PM;b.kotkov_g177;2026-04-11 11-55-13.mp4;https://bt.qacloud.cc/secure/attachment/117968/2026-04-11+11-55-13.mp4","11/Apr/26 12:55 PM;b.kotkov_g177;зображення_2026-04-11_115501743.png;https://bt.qacloud.cc/secure/attachment/117967/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-11_115501743.png",,,,,,,,,,,,,,,,,,,"1|i0ge7p:",,,,,,,,,,,,,,,,,
+"Перевірити, що збережений список можна відкрити повторно ",TESPG177-591,190271,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 3:49 PM,11/Apr/26 1:21 AM,12/Sep/26 10:11 PM,11/Apr/26 1:21 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Існує збережений файл списку на диску
+
+*Steps to Reproduce:*
+# Викликати команду відкриття файлу (наприклад, через меню або Ctrl+O)
+# Обрати раніше збережений файл списку
+# Підтвердити відкриття
+
+*Expected Result:*
+Збережений список успішно відкривається у додатку",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 3:48 PM;b.kotkov_g177;зображення_2026-04-10_144800998.png;https://bt.qacloud.cc/secure/attachment/117878/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_144800998.png","10/Apr/26 3:48 PM;b.kotkov_g177;зображення_2026-04-10_144824460.png;https://bt.qacloud.cc/secure/attachment/117877/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_144824460.png","10/Apr/26 3:49 PM;b.kotkov_g177;зображення_2026-04-10_144908084.png;https://bt.qacloud.cc/secure/attachment/117876/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_144908084.png",,,,,,,,,,,,,,,,,,"1|i0ge7h:",,,,,,,,,,,,,,,,,
+Перевірити поведінку програми при повторному збереженні зміненого списку,TESPG177-590,190270,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,10/Apr/26 3:43 PM,11/Apr/26 1:20 AM,12/Sep/26 10:11 PM,11/Apr/26 1:20 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Існує збережений список
+
+*Steps to Reproduce:*
+# Відкрити раніше збережений список
+# Додати новий елемент до списку через “Add to List” або ENTER
+# Виконати повторне збереження списку (наприклад, через меню або Ctrl+S)
+
+*Expected Result:*
+Не вказано
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"10/Apr/26 3:40 PM;b.kotkov_g177;зображення_2026-04-10_144031429.png;https://bt.qacloud.cc/secure/attachment/117875/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_144031429.png","10/Apr/26 3:41 PM;b.kotkov_g177;зображення_2026-04-10_144104944.png;https://bt.qacloud.cc/secure/attachment/117874/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_144104944.png","10/Apr/26 3:41 PM;b.kotkov_g177;зображення_2026-04-10_144129431.png;https://bt.qacloud.cc/secure/attachment/117873/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_144129431.png","10/Apr/26 3:42 PM;b.kotkov_g177;зображення_2026-04-10_144210300.png;https://bt.qacloud.cc/secure/attachment/117872/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_144210300.png","10/Apr/26 3:43 PM;b.kotkov_g177;зображення_2026-04-10_144300922.png;https://bt.qacloud.cc/secure/attachment/117871/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-10_144300922.png",,,,,,,,,,,,,,,,"1|i0ge79:",,,,,,,,,,,,,,,,,
+Перевірити поведінку програми при спробі зберегти порожній список,TESPG177-571,190251,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Minor,Done,,b.kotkov_g177,b.kotkov_g177,09/Apr/26 10:11 PM,14/Apr/26 11:14 PM,12/Sep/26 10:11 PM,14/Apr/26 11:14 PM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Список порожній
+
+*Steps to Reproduce:*
+# Переконатися, що список не містить елементів
+# Виконати збереження списку (наприклад, через меню або Ctrl+S)
+# Обрати місце збереження та підтвердити
+
+*Expected Result:*
+Згідно вимог нічого не вказано, але якщо схилятись до логіки то зберігати у файлі порожній список є нелогічно",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"09/Apr/26 10:11 PM;b.kotkov_g177;зображення_2026-04-09_211134487.png;https://bt.qacloud.cc/secure/attachment/117865/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_211134487.png","09/Apr/26 10:11 PM;b.kotkov_g177;зображення_2026-04-09_211146397.png;https://bt.qacloud.cc/secure/attachment/117864/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_211146397.png",,,,,,,,,,,,,,,,,,,"1|i0ge31:",,,,,,,,,,,,,,,,,
+"Перевірити, що після відкриття список містить коректні збережені дані",TESPG177-569,190249,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,09/Apr/26 9:56 PM,11/Apr/26 1:20 AM,12/Sep/26 10:11 PM,11/Apr/26 1:20 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Існує збережений файл списку з відомими даними
+
+*Steps to Reproduce:*
+# Викликати команду відкриття файлу (наприклад, через меню або Ctrl+O)
+# Обрати раніше збережений файл списку
+# Підтвердити відкриття
+# Перевірити вміст списку
+
+*Expected Result:*
+Після відкриття список містить коректні дані, що були збережені раніше. ",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"09/Apr/26 9:53 PM;b.kotkov_g177;зображення_2026-04-09_205335236.png;https://bt.qacloud.cc/secure/attachment/117863/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_205335236.png","09/Apr/26 9:54 PM;b.kotkov_g177;зображення_2026-04-09_205434434.png;https://bt.qacloud.cc/secure/attachment/117862/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_205434434.png","09/Apr/26 9:56 PM;b.kotkov_g177;зображення_2026-04-09_205613361.png;https://bt.qacloud.cc/secure/attachment/117861/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_205613361.png",,,,,,,,,,,,,,,,,,"1|i0ge2l:",,,,,,,,,,,,,,,,,
+"Перевірити, що збережений список можна відкрити повторно ",TESPG177-568,190248,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,09/Apr/26 9:49 PM,11/Apr/26 1:20 AM,12/Sep/26 10:11 PM,11/Apr/26 1:20 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Існує збережений файл списку на диску
+
+*Steps to Reproduce:*
+# Викликати команду відкриття файлу (наприклад, через меню або Ctrl+O)
+# Обрати раніше збережений файл списку
+# Підтвердити відкриття
+
+*Expected Result:*
+Збережений список успішно відкривається та відображається у додатку. ",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"09/Apr/26 9:46 PM;b.kotkov_g177;зображення_2026-04-09_204645286.png;https://bt.qacloud.cc/secure/attachment/117860/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_204645286.png","09/Apr/26 9:47 PM;b.kotkov_g177;зображення_2026-04-09_204758926.png;https://bt.qacloud.cc/secure/attachment/117859/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_204758926.png","09/Apr/26 9:49 PM;b.kotkov_g177;зображення_2026-04-09_204901623.png;https://bt.qacloud.cc/secure/attachment/117858/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_204901623.png",,,,,,,,,,,,,,,,,,"1|i0ge2d:",,,,,,,,,,,,,,,,,
+"Перевірити, що після збереження списку файл створюється на диску у вказаному користувачом місці",TESPG177-566,190246,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,09/Apr/26 9:43 PM,11/Apr/26 1:20 AM,12/Sep/26 10:11 PM,11/Apr/26 1:20 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Існує створений список
+
+*Steps to Reproduce:*
+# Виконати збереження списку (наприклад, через меню або Ctrl+S)
+# Обрати конкретне місце на диску
+# Підтвердити збереження
+# Перейти до обраної директорії на диску
+
+*Expected Result:*
+Файл списку створюється у вказаному користувачем місці на диску. ",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"09/Apr/26 9:42 PM;b.kotkov_g177;зображення_2026-04-09_204213398.png;https://bt.qacloud.cc/secure/attachment/117857/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_204213398.png","09/Apr/26 9:43 PM;b.kotkov_g177;зображення_2026-04-09_204343834.png;https://bt.qacloud.cc/secure/attachment/117856/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_204343834.png",,,,,,,,,,,,,,,,,,,"1|i0ge1x:",,,,,,,,,,,,,,,,,
+"Перевірити, що після створення нового запису і збереження файлу, список доступний для подальшої роботи",TESPG177-565,190245,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,09/Apr/26 9:37 PM,11/Apr/26 1:20 AM,12/Sep/26 10:11 PM,11/Apr/26 1:20 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Існує створений список
+
+*Steps to Reproduce:*
+# Додати новий елемент до списку через “Add to List” або ENTER
+# Виконати збереження файлу (наприклад, через меню або Ctrl+S)
+# Продовжити роботу зі списком (перегляд, додавання нових елементів)
+
+*Expected Result:*
+Після збереження файл доступний для подальшої роботи. Список зберігається і може бути використаний без втрати даних.
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"09/Apr/26 9:35 PM;b.kotkov_g177;зображення_2026-04-09_203525540.png;https://bt.qacloud.cc/secure/attachment/117855/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_203525540.png","09/Apr/26 9:36 PM;b.kotkov_g177;зображення_2026-04-09_203602721.png;https://bt.qacloud.cc/secure/attachment/117854/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_203602721.png","09/Apr/26 9:37 PM;b.kotkov_g177;зображення_2026-04-09_203714946.png;https://bt.qacloud.cc/secure/attachment/117853/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_203714946.png",,,,,,,,,,,,,,,,,,"1|i0ge1p:",,,,,,,,,,,,,,,,,
+"Перевірити, що створення списку не призводить до помилки або аварійного завершення програми",TESPG177-563,190243,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,09/Apr/26 9:29 PM,11/Apr/26 1:20 AM,12/Sep/26 10:11 PM,11/Apr/26 1:20 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Обрано режим роботи
+
+*Steps to Reproduce:*
+# Ввести коректні дані відповідно до обраного режиму
+# Натиснути “Add to List” або ENTER
+# Повторити додавання кілька разів
+# Зберегти файл на диску
+# Ввести коректні дані відповідно до обраного режиму
+# Натиснути “Add to List” або ENTER
+# Повторити додавання кілька разів
+
+*Expected Result:*
+Список створюється без помилок. Програма не завершується аварійно під час створення списку.
+",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"09/Apr/26 9:27 PM;b.kotkov_g177;зображення_2026-04-09_202727045.png;https://bt.qacloud.cc/secure/attachment/117852/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_202727045.png","09/Apr/26 9:28 PM;b.kotkov_g177;зображення_2026-04-09_202802163.png;https://bt.qacloud.cc/secure/attachment/117851/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_202802163.png",,,,,,,,,,,,,,,,,,,"1|i0ge19:",,,,,,,,,,,,,,,,,
+Перевірити можливість збереження списку у файл на диску,TESPG177-562,190242,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,09/Apr/26 9:21 PM,11/Apr/26 1:20 AM,12/Sep/26 10:11 PM,11/Apr/26 1:20 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Існує створений список
+
+*Steps to Reproduce:*
+# Створити або відкрити список
+# Викликати команду збереження (наприклад, через меню або Ctrl+S)
+# Обрати місце збереження на диску
+# Підтвердити збереження
+
+*Expected Result:*
+Список зберігається у файл на диску.",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"09/Apr/26 9:20 PM;b.kotkov_g177;зображення_2026-04-09_202041407.png;https://bt.qacloud.cc/secure/attachment/117850/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_202041407.png","09/Apr/26 9:21 PM;b.kotkov_g177;зображення_2026-04-09_202126480.png;https://bt.qacloud.cc/secure/attachment/117849/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_202126480.png",,,,,,,,,,,,,,,,,,,"1|i0ge11:",,,,,,,,,,,,,,,,,
+Перевірити можливість модифікації відображення списку за допомогою сортування,TESPG177-561,190241,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Trivial,Done,,b.kotkov_g177,b.kotkov_g177,09/Apr/26 9:10 PM,11/Apr/26 1:20 AM,12/Sep/26 10:11 PM,11/Apr/26 1:20 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Існує список із кількома елементами
+# Обрано режим роботи
+
+*Steps to Reproduce:*
+# Додати кілька елементів до списку
+# Обрати option button “Ascending”
+# Перевірити порядок елементів у списку
+# Обрати option button “Descending”
+# Перевірити порядок елементів у списку
+
+*Expected Result:*
+Список сортується відповідно до обраного порядку: за зростанням (Ascending) або за спаданням (Descending).",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"09/Apr/26 9:10 PM;b.kotkov_g177;зображення_2026-04-09_201006581.png;https://bt.qacloud.cc/secure/attachment/117848/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_201006581.png","09/Apr/26 9:10 PM;b.kotkov_g177;зображення_2026-04-09_201036043.png;https://bt.qacloud.cc/secure/attachment/117847/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_201036043.png",,,,,,,,,,,,,,,,,,,"1|i0ge0t:",,,,,,,,,,,,,,,,,
+Перевірити можливість скасування останньої зміни списку через Undo,TESPG177-559,190239,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,09/Apr/26 8:56 PM,11/Apr/26 1:19 AM,12/Sep/26 10:11 PM,11/Apr/26 1:19 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Існує створений список
+# Виконано хоча б одну зміну списку (наприклад, додано елемент)
+
+*Steps to Reproduce:*
+# Додати новий елемент до списку через “Add to List” або ENTER
+# В меню “Edit” обрати команду “Undo” або використати Ctrl+Z
+
+*Expected Result:*
+Остання дія скасовується. Список повертається до попереднього стану",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"09/Apr/26 8:54 PM;b.kotkov_g177;зображення_2026-04-09_195426970.png;https://bt.qacloud.cc/secure/attachment/117846/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_195426970.png","09/Apr/26 8:54 PM;b.kotkov_g177;зображення_2026-04-09_195451020.png;https://bt.qacloud.cc/secure/attachment/117845/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_195451020.png","09/Apr/26 8:56 PM;b.kotkov_g177;зображення_2026-04-09_195559334.png;https://bt.qacloud.cc/secure/attachment/117844/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_195559334.png",,,,,,,,,,,,,,,,,,"1|i0ge0d:",,,,,,,,,,,,,,,,,
+Перевірка можливості модифікації списку шляхом додавання кількох елементів,TESPG177-557,190237,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,09/Apr/26 8:50 PM,11/Apr/26 1:19 AM,09/Sep/26 12:53 PM,11/Apr/26 1:19 AM,,,,,0,,"*Preconditions:*
+ # Додаток List Boxer 1.98 запущений
+ # Існує створений список
+ # Обрано режим роботи
+
+*Steps to Reproduce:*
+ # Переконатися, що список вже містить хоча б один елемент
+ # Ввести значення у поле вводу відповідно до обраного режиму
+ # Натиснути “Add to List” або ENTER
+ # Повторити попередні кроки для додавання кількох різних значень
+
+*Expected Result:*
+Усі введені елементи додаються до списку. Список модифікується шляхом додавання кількох елементів без помилок.",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"09/Apr/26 8:49 PM;b.kotkov_g177;зображення_2026-04-09_194938095.png;https://bt.qacloud.cc/secure/attachment/117843/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_194938095.png",,,,,,,,,,,,,,,,,,,,"1|i0gdzx:",,,,,,,,,,,,,,,,,
+Перевірити можливість модифікації списку шляхом додавання нового елемента,TESPG177-556,190236,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,09/Apr/26 8:36 PM,11/Apr/26 1:19 AM,12/Sep/26 10:11 PM,11/Apr/26 1:19 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений
+# Обрано режим роботи (Alphabetical / Numerical)
+# Існує створений список
+
+*Steps to Reproduce:*
+# Переконатися, що список вже містить хоча б один елемент.
+# Ввести нове значення у поле вводу відповідно до обраного режиму.
+# Натиснути кнопку “Add to List” або клавішу ENTER.
+
+*Expected Result:*
+Новий елемент додається до існуючого списку. Список успішно модифікується шляхом додавання нового рядка.",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"09/Apr/26 8:35 PM;b.kotkov_g177;зображення_2026-04-09_193524719.png;https://bt.qacloud.cc/secure/attachment/117842/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_193524719.png","09/Apr/26 8:36 PM;b.kotkov_g177;зображення_2026-04-09_193606946.png;https://bt.qacloud.cc/secure/attachment/117841/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_193606946.png",,,,,,,,,,,,,,,,,,,"1|i0gdzp:",,,,,,,,,,,,,,,,,
+"Перевірити, що створення списку не призводить до помилки або аварійного завершення програми",TESPG177-555,190235,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,09/Apr/26 8:29 PM,11/Apr/26 1:19 AM,12/Sep/26 10:11 PM,11/Apr/26 1:19 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений. 
+# Режим роботи обрано (Alphabetic / Numeric / змішаний).
+
+*Steps to Reproduce:*
+# Ввести коректні дані відповідно до обраного режиму. 
+# Натиснути кнопку “Add to List” або клавішу ENTER. 
+# Повторити додавання кілька разів.
+
+*Expected Result:*
+Додаток працює стабільно. Список створюється та поповнюється без помилок і без аварійного завершення програми.",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"09/Apr/26 8:29 PM;b.kotkov_g177;зображення_2026-04-09_192908006.png;https://bt.qacloud.cc/secure/attachment/117840/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_192908006.png",,,,,,,,,,,,,,,,,,,,"1|i0gdzh:",,,,,,,,,,,,,,,,,
+Перевірити можливість свторення цифрового списку,TESPG177-553,190233,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,09/Apr/26 8:16 PM,11/Apr/26 1:19 AM,12/Sep/26 10:11 PM,11/Apr/26 1:19 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений. 
+# Активовано режим Numeric.
+
+*Steps to Reproduce:*
+# Ввести у поле вводу числове значення (в діапазоні 0–9999). 
+# Натиснути кнопку “Add to List” або клавішу ENTER.
+
+*Expected Result:*
+Створюється цифровий список. У список додаються лише числові значення. Введення літер або інших символів не допускається.",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"09/Apr/26 8:21 PM;b.kotkov_g177;зображення_2026-04-09_192117495.png;https://bt.qacloud.cc/secure/attachment/117839/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_192117495.png",,,,,,,,,,,,,,,,,,,,"1|i0gdz1:",,,,,,,,,,,,,,,,,
+Перевірити можливість створення алфавітного списку,TESPG177-552,190232,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,09/Apr/26 8:13 PM,11/Apr/26 1:19 AM,12/Sep/26 10:11 PM,11/Apr/26 1:19 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений. 
+# Активовано режим Alphabetic.
+
+*Steps to Reproduce:*
+# Ввести у поле вводу літерні значення (латиниця, верхній або нижній регістр, довжина 1–8 символів). 
+# Натиснути кнопку “Add to List” або клавішу ENTER.
+
+*Expected Result:*
+Створюється алфавітний список. У список додаються лише літерні значення (латиниця, довжина 1–8 символів). Введення інших символів не допускається.",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"09/Apr/26 8:14 PM;b.kotkov_g177;зображення_2026-04-09_191419917.png;https://bt.qacloud.cc/secure/attachment/117838/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_191419917.png",,,,,,,,,,,,,,,,,,,,"1|i0gdyt:",,,,,,,,,,,,,,,,,
+Перевірити можливість створення універсального алфавітно-цифрового списку,TESPG177-550,190230,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,09/Apr/26 8:05 PM,11/Apr/26 1:19 AM,12/Sep/26 10:11 PM,11/Apr/26 1:19 AM,,,,,0,,"*Preconditions:*
+# Додаток List Boxer 1.98 запущений.
+# Активовано режими Alphabetic та Numeric одночасно.
+
+*Steps to Reproduce:*
+# Ввести у поле вводу алфавітно-цифрове значення (літери латиниці та цифри в діапазоні 0–9999).
+# Натиснути кнопку “Add to List” або клавішу ENTER.
+
+*Expected Result:*
+Створюється універсальний алфавітно-цифровий список. У список додаються значення, що містять літери (верхній/нижній регістр) та цифри (0–9999).",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"09/Apr/26 8:05 PM;b.kotkov_g177;зображення_2026-04-09_190506300.png;https://bt.qacloud.cc/secure/attachment/117837/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_190506300.png",,,,,,,,,,,,,,,,,,,,"1|i0gdyd:",,,,,,,,,,,,,,,,,
+Перевірити можливість створення нового списку в додатку,TESPG177-545,190225,Test Case,Done,TESPG177,Test_Project_G177,software,nboboshko,,,Major,Done,,b.kotkov_g177,b.kotkov_g177,09/Apr/26 7:52 PM,11/Apr/26 1:18 AM,09/Sep/26 1:04 PM,11/Apr/26 1:18 AM,,,,,0,,"*Preconditions:*
+# Завантажити ListBoxer 1.98
+# Додаток ListBoxer 1.98 запущений
+
+*Steps to Reproduce:*
+# Створити новий список шляхом введення валідних даних у поле вводу.
+# Натиснути кнопку ""Add to List"" або клавішу ENTER на клавіатурі
+
+*Expected Result:*
+Новий список може бути створений у додатку. Інформація додається до списку. Згідно з вимогами, програма повинна створювати універсальні алфавітно-цифрові списки, а додавання рядка в список виконується через “Add to List” або клавішу ENTER.",,b.kotkov_g177,,,,,,,,,,TESPG177-493,"09/Apr/26 7:52 PM;b.kotkov_g177;зображення_2026-04-09_185219638.png;https://bt.qacloud.cc/secure/attachment/117836/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-04-09_185219638.png",,,,,,,,,,,,,,,,,,,,"1|i0gdxh:",,,,,,,,,,,,,,,,,
