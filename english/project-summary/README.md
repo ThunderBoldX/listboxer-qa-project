@@ -39,19 +39,16 @@ I worked with the following parts of the application:
 - Contextual Help
 - Keyboard shortcuts
 
-## Testing Techniques and Types
+## Testing Activities
 
-The project included:
+My work on the project included:
 
 - Functional Testing
-- Smoke Testing
 - Negative Testing
-- Exploratory Testing
-- Regression Testing
-- Retesting
-- Boundary Value Analysis
-- Equivalence Partitioning
-- Usability Testing
+- Requirements-based Testing
+- Test Case Execution
+- Checklist-based Testing
+- Defect Reporting
 
 ## Test Documentation
 
